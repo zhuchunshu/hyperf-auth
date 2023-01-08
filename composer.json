@@ -1,6 +1,6 @@
 {
-    "name": "96qbhy/hyperf-auth",
-    "description": "hyperf 的 auth 组件",
+    "name": "zhuchunshu/hyperf-auth",
+    "description": "super-forum 能用的hyperf 的 auth 组件",
     "type": "library",
     "license": "MIT",
     "keywords": [
