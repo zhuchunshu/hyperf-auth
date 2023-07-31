@@ -22,7 +22,7 @@ class AuthCommand extends HyperfCommand
      *
      * @var string
      */
-    protected $name = 'gen:auth-env';
+    protected ?string $name = 'gen:auth-env'; // 将类型声明改为 ?string
 
     public function handle()
     {
