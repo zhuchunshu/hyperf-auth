@@ -21,7 +21,7 @@ use Qbhy\HyperfAuth\Exception\UnauthorizedException;
 #[Aspect]
 class AuthAspect extends AbstractAspect
 {
-    public $annotations = [
+    public array $annotations = [ // 将类型声明改为 array
         Auth::class,
     ];
 
