@@ -13,7 +13,7 @@ namespace Qbhy\HyperfAuth\Guard;
 
 use Hyperf\HttpServer\Contract\RequestInterface;
 use Hyperf\Redis\Redis;
-use Hyperf\Utils\Context;
+use Hyperf\Context\Context;
 use Psr\EventDispatcher\EventDispatcherInterface;
 use Qbhy\HyperfAuth\Authenticatable;
 use Qbhy\HyperfAuth\Events\ForcedOfflineEvent;

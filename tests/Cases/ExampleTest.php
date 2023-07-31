@@ -13,7 +13,7 @@ namespace HyperfTest\Cases;
 
 use Hyperf\HttpMessage\Server\Request;
 use Hyperf\Utils\ApplicationContext;
-use Hyperf\Utils\Context;
+use Hyperf\Context\Context;
 use HyperfTest\DemoUser;
 use Psr\Http\Message\ServerRequestInterface;
 use Qbhy\HyperfAuth\AuthCommand;

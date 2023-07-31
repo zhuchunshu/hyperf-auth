@@ -12,7 +12,7 @@ declare(strict_types=1);
 namespace Qbhy\HyperfAuth\Guard;
 
 use Hyperf\HttpServer\Contract\RequestInterface;
-use Hyperf\Utils\Context;
+use Hyperf\Context\Context;
 use Hyperf\Utils\Str;
 use Qbhy\HyperfAuth\Authenticatable;
 use Qbhy\HyperfAuth\Exception\AuthException;

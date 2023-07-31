@@ -12,7 +12,7 @@ declare(strict_types=1);
 namespace Qbhy\HyperfAuth\Guard;
 
 use Hyperf\Contract\SessionInterface;
-use Hyperf\Utils\Context;
+use Hyperf\Context\Context;
 use Qbhy\HyperfAuth\Authenticatable;
 use Qbhy\HyperfAuth\Exception\AuthException;
 use Qbhy\HyperfAuth\Exception\UnauthorizedException;
