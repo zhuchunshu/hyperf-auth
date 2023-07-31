@@ -26,9 +26,9 @@ class AuthMiddleware implements MiddlewareInterface
     protected $guards = [null];
 
     /**
-     * @Inject
      * @var AuthManager
      */
+    #[Inject]
     protected $auth;
 
     public function process(ServerRequestInterface $request, RequestHandlerInterface $handler): ResponseInterface

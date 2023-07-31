@@ -15,11 +15,6 @@ use Attribute;
 use Doctrine\Common\Annotations\Annotation\Target;
 use Hyperf\Di\Annotation\AbstractAnnotation;
 
-/**
- * @Annotation
- * @Target({"METHOD", "CLASS"})
- * Class Auth
- */
 #[Attribute(Attribute::TARGET_METHOD | Attribute::TARGET_CLASS)]
 class Auth extends AbstractAnnotation
 {

@@ -18,9 +18,7 @@ use Hyperf\Di\Aop\ProceedingJoinPoint;
 use Qbhy\HyperfAuth\Annotation\Auth;
 use Qbhy\HyperfAuth\Exception\UnauthorizedException;
 
-/**
- * @Aspect
- */
+#[Aspect]
 class AuthAspect extends AbstractAspect
 {
     public $annotations = [
@@ -28,9 +26,9 @@ class AuthAspect extends AbstractAspect
     ];
 
     /**
-     * @Inject
      * @var AuthManager
      */
+    #[Inject]
     protected $auth;
 
     public function process(ProceedingJoinPoint $proceedingJoinPoint)

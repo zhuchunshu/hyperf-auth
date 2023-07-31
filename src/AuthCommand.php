@@ -14,10 +14,7 @@ namespace Qbhy\HyperfAuth;
 use Hyperf\Command\Annotation\Command;
 use Hyperf\Command\Command as HyperfCommand;
 
-/**
- * @Command
- * Class AuthCommand
- */
+#[Command]
 class AuthCommand extends HyperfCommand
 {
     /**
